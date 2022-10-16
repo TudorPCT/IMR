@@ -1,5 +1,5 @@
 # IMR
 
-#Team
-#Romascu Raluca
-#Pasat Tudor
+# Team
+# Romascu Raluca
+# Pasat Tudor
