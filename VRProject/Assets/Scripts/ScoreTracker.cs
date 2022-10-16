@@ -1,8 +1,10 @@
+using System;
 using UnityEngine;
 
 public class ScoreTracker : MonoBehaviour
 {
-    private int _score;
+    [SerializeField] private GameObject leftController;
+    private double _score;
 
     void Start()
     {
@@ -12,7 +14,8 @@ public class ScoreTracker : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.name != "Dart") return;
-        _score++;
+        var distance = Vector3.Distance(collision.gameObject.transform.position, leftController.transform.position);
+        _score += Math.Round(distance);
         Debug.Log("Score: " + _score);
     }
 }

@@ -1,6 +1,6 @@
 # IMR
 
-## Link tema 2: https://www.youtube.com/watch?v=92maPh8_dgo
+## Link tema 2: https://www.youtube.com/watch?v=sVDmZmCtDuo
 
 ## Team
 - Romascu Raluca
